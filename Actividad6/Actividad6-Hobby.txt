@@ -1,0 +1,16 @@
+Hobby : Armar rompecabezas
+
+Algoritmo
+1. Tomar la caja del rompecabezas
+2. Abrir la caja
+3. Vaciar las piezas en la superficie de trabajo
+4. Voltear y distribuir todas las piezas en la superficie
+5. Buscar las piezas que forman el borde
+6. Formar el borde
+7. si se identifican un parde piezas que van juntas unirlas
+8. Identificar cambios bruscos en el diseño como bordes, sombras, etc.
+9. Armar las piezas con cambios bruscos
+10. Si embonan en el borde unirlas
+11. Separar las piezas por color
+12. Buscar las piezas individuales que continuan en el "borde" de lo que va armado hasta terminar
+13. Rompecabezas terminado
