@@ -18,6 +18,7 @@ oros[oros["Age"] == novato]
 print("El medallista más joven con oro es:\n", oros[oros["Age"] == novato]["Name"])
 
 #Encuentra al competidor más ganador de la historia y crea un csv con toda su información.
-ganador = medallistas.groupby(["Name"]).count().sort_values(["Medal"], ascending=False).head(1)
+ganador=medallistas[["Name","Medal"]]
+ganador = ganador.groupby(["Name"]).count().sort_values(["Medal"], ascending=False).head(1)
 ganador.to_csv("Actividad13\\MasGanador.csv", header=True, index=True)
 print(ganador)
